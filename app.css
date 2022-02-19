@@ -1,0 +1,77 @@
+#heading {
+    color:red;
+    background-color:rgb(43, 198, 226);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+
+}
+.header{
+    /*text-align: right;*/
+    background-color: orange;
+    padding: 50px;
+    margin: 50px;
+    border: 10px solid green;
+    border-radius: 30px;
+    width: 1000px;
+    height: 400px;
+    background-image:url(../nature.jpg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 2px 2px 1px gray;
+    cursor: pointer;
+    overflow: scroll;
+    opacity: 0.8;
+    display: block;
+    
+    
+}
+body{
+    margin: 0;
+    height: 20000px;
+}
+p{
+    line-height: 1.7;
+    color: black;
+}
+ul{
+    list-style-type: square;
+}
+.wrapper{
+    width: 400px;
+    height: 400px;
+    background-color: red;
+    margin: 40px;
+    /*position: relative;*/
+    /*transform: rotate(45deg);*/
+    /*transform: translate(300px,500px );*/
+    transition: background color 100s ease;
+
+}
+.wrapper{
+    background-color: blue;
+}
+input:focus{
+    border: 2px solid green;
+}
+/*.inner{
+    width: 150px;
+    height:150px;
+    background-color: red;
+    position: absolute;
+    bottom: 40px;
+    right: 40px;
+    /*top: 40%;*/
+    /*z-index: 2;
+
+}
+.inner2{
+    width: 150px;
+    height:150px;
+    background-color:green;
+    position: absolute;
+    bottom: 40px;
+    right: 40px;
+    z-index: 1;
+    
+}*/
